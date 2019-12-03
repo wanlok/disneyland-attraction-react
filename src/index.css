@@ -1,0 +1,203 @@
+body {
+  min-width: 600px;
+}
+
+body,
+h1 {
+  margin: 0px;
+}
+
+body,
+select,
+td,
+input[type='text'],
+.attraction > :nth-child(3),
+.height > *,
+.operating-hours > *,
+.location {
+  padding: 8px;
+}
+
+body,
+input,
+select,
+option {
+  font-family: 'Garamond';
+  font-size: 16px;
+}
+
+.format {
+  font-size: 12px;
+}
+
+a {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr,
+.button {
+  height: 48px;
+}
+
+tr {
+  border-top: white solid 1px;
+}
+
+.attraction,
+.height,
+.operating-hours {
+  display: table
+}
+
+.attraction > *,
+.height > *,
+.operating-hours > * {
+  display: table-cell;
+}
+
+.height,
+.operating-hours,
+.location {
+  background-color: #F7F7F7;
+}
+
+td,
+.attraction,
+.button {
+  background-color: #E7E7E7;
+  text-decoration: none;
+}
+
+.active,
+.attraction:hover,
+.button:hover {
+  background-color: #D7D7D7;
+}
+
+td.control {
+  background-color: transparent;
+  padding: 8px 0px 0px 0px;
+}
+
+tr.error {
+  color: white;
+}
+
+input[type='text'] {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+table,
+input[type='text'],
+select,
+.attraction {
+  width: 100%;
+}
+
+tr > :first-child {
+  width: 136px;
+}
+
+h1 {
+  font-weight: normal;
+  padding-bottom: 8px;
+}
+
+input[type='text'],
+select {
+  border: #D7D7D7 solid 1px;
+}
+
+.attraction > :nth-child(1) {
+  width: 8px;
+}
+
+td img {
+  width: 400px;
+}
+
+.attraction > :nth-child(2) {
+  width: 240px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+td img,
+.attraction > :nth-child(3) > * {
+  display: block;
+}
+
+h1,
+.name {
+  font-size: 24px;
+}
+
+.name {
+  font-weight: 100;
+}
+
+.description,
+.format {
+  margin-top: 4px;
+}
+
+.height > :nth-child(1),
+.operating-hours > :nth-child(1) {
+  width: 136px;
+}
+
+.attraction,
+.operating-hours,
+.location {
+  margin-top: 1px;
+}
+
+.height {
+  margin-top: 8px;
+}
+
+.availability-available {
+  background-color: green;
+}
+
+tr.error td,
+.availability-not-available {
+  background-color: red;
+}
+
+.height-not-available {
+  color: gray;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  line-height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.button,
+.format {
+  display: inline-block;
+}
+
+.left-spacing {
+  margin-left: 1px;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  width: 160px;
+}
